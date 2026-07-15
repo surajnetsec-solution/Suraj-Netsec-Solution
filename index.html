@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Xorynex Technologies — Network & Security Engineering</title>
+<meta name="description" content="Freelance network and security engineering: firewall management, VPN architecture, routing & switching, NOC/SOC support, and cloud infrastructure for small businesses and independent freelancers worldwide.">
+<link rel="stylesheet" href="style.css">
+
+<!-- Favicons -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#0b2545">
+
+<!-- SEO -->
+<link rel="canonical" href="https://xorynex.com/">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xorynex Technologies">
+<meta property="og:url" content="https://xorynex.com/">
+<meta property="og:title" content="Xorynex Technologies — Network & Security Engineering">
+<meta property="og:description" content="Freelance network and security engineering: firewall management, VPN architecture, routing & switching, NOC/SOC support, and cloud infrastructure for small businesses and independent freelancers worldwide.">
+<meta property="og:image" content="https://xorynex.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Xorynex Technologies — Network & Security Engineering">
+<meta name="twitter:description" content="Freelance network and security engineering: firewall management, VPN architecture, routing & switching, NOC/SOC support, and cloud infrastructure for small businesses and independent freelancers worldwide.">
+<meta name="twitter:image" content="https://xorynex.com/og-image.jpg">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Xorynex Technologies",
+  "url": "https://xorynex.com",
+  "logo": "https://xorynex.com/icon-512.png",
+  "description": "Freelance network and security engineering: firewall management, VPN architecture, routing & switching, NOC/SOC support, and cloud infrastructure for small businesses and independent freelancers worldwide.",
+  "email": "support@xorynex.com",
+  "sameAs": [
+    "https://www.linkedin.com/company/xorynex-technologies"
+  ],
+  "areaServed": ["United States", "Europe", "Middle East"],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "6"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Anthony" },
+      "reviewBody": "Xorynex helped us redesign our firewall policies and clean up years of unnecessary rules. The implementation was well documented, and there was no disruption to our business operations. Communication throughout the project was excellent."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Abby" },
+      "reviewBody": "We needed a secure site-to-site VPN between two offices. The setup was completed quickly, tested thoroughly, and everything was explained in a way our internal team could understand."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Eknam" },
+      "reviewBody": "Professional, responsive, and technically very strong. We received clear recommendations instead of unnecessary upselling. The network documentation provided at the end of the project was especially valuable."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Joseph" },
+      "reviewBody": "Our firewall migration was completed with minimal downtime. Every step was planned in advance, and rollback procedures were documented. It was a smooth experience from start to finish."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Omisore" },
+      "reviewBody": "We engaged Xorynex for network troubleshooting after recurring VPN connectivity issues. The root cause was identified quickly, and the permanent solution has been running reliably ever since."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Shelly" },
+      "reviewBody": "The consultation helped us improve our network security posture without increasing unnecessary costs. The recommendations were practical, well explained, and tailored to our environment."
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<div class="ticker">
+  <div class="ticker__track">
+  
+    <span class="ok">● firewall.policy: enforced</span>
+    <span class="data">vpn.tunnels: monitored</span>
+    <span class="ok">● noc.monitoring: active</span>
+    <span class="warn">soc.alerts: triaged</span>
+    <span class="ok">● bgp.sessions: established</span>
+    <span class="data">clients: US · EU · MENA</span>
+    <span class="ok">● status: accepting new engagements</span>
+    <span class="ok">● firewall.policy: enforced</span>
+    <span class="data">vpn.tunnels: monitored</span>
+    <span class="ok">● noc.monitoring: active</span>
+    <span class="warn">soc.alerts: triaged</span>
+    <span class="ok">● bgp.sessions: established</span>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap nav">
+    <a href="/" class="brand">
+      <img class="brand__logo" src="/logo-icon.png" alt="Xorynex Technologies logo" width="34" height="25">
+      <span>Xorynex Technologies<small>Infrastructure &amp; Security Consulting</small></span>
+    </a>
+    <nav class="nav__links">
+      <a href="/" class="current">Home</a>
+      <a href="/services">Services</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/contact" class="nav__cta">Book Consultation</a>
+    </nav>
+    <button class="nav__toggle" aria-label="Toggle menu">☰ menu</button>
+  </div>
+</header>
+
+<main id="main-content" tabindex="-1">
+
+  <section class="hero" style="border-bottom:1px solid var(--line);">
+    <div class="wrap hero__grid">
+      <div>
+        <div class="eyebrow">Independent Network &amp; Security Engineer</div>
+        <h1>Infrastructure that stays <span class="accent">up.</span><br>Perimeters that stay <span class="accent">closed.</span></h1>
+        <p class="lead">Enterprise-grade firewall, VPN, and network engineering for organizations across the US, Europe, and the Middle East — designed, deployed, and documented by an engineer with production NOC/SOC and data center experience.</p>
+        <div class="btn-row">
+          <a href="/contact" class="btn btn--primary">Book a Consultation</a>
+          <a href="/services" class="btn btn--ghost">View Services</a>
+        </div>
+        <div class="stats reveal" style="margin-top:44px; box-shadow:var(--shadow-md);">
+          <div class="stat"><div class="num">10+</div><div class="label">Years hands-on</div></div>
+          <div class="stat"><div class="num">3</div><div class="label">Regions served</div></div>
+          <div class="stat"><div class="num">24/7</div><div class="label">Monitoring capable</div></div>
+          <div class="stat"><div class="num">99.98%</div><div class="label">Typical uptime target</div></div>
+        </div>
+      </div>
+
+      <div class="hero__visual reveal" aria-hidden="true">
+        <svg viewBox="0 0 560 480" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="heroCenterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#1d4ed8"/>
+              <stop offset="100%" stop-color="#0ea5e9"/>
+            </linearGradient>
+          </defs>
+          <!-- connecting lines -->
+          <g stroke="var(--line-bright)" stroke-width="1.5" fill="none">
+            <path d="M280 240 L110 100"/>
+            <path d="M280 240 L450 100"/>
+            <path d="M280 240 L95 385"/>
+            <path d="M280 240 L465 385"/>
+            <path d="M280 240 L50 240"/>
+          </g>
+          <!-- animated flow overlay -->
+          <g stroke="var(--signal)" stroke-width="1.5" fill="none" opacity="0.55">
+            <path class="flow" d="M280 240 L110 100"/>
+            <path class="flow" d="M280 240 L450 100"/>
+            <path class="flow" d="M280 240 L95 385"/>
+            <path class="flow" d="M280 240 L465 385"/>
+          </g>
+
+          <!-- satellite nodes -->
+          <g font-family="var(--font-mono)" font-size="12" fill="var(--text-dim)">
+            <circle class="pulse" cx="110" cy="100" r="7" fill="var(--signal-2)"/>
+            <circle cx="110" cy="100" r="15" fill="none" stroke="var(--signal-2)" stroke-width="1.4" opacity="0.35"/>
+            <text x="110" y="76" text-anchor="middle">Firewall</text>
+
+            <circle class="pulse" cx="450" cy="100" r="7" fill="var(--signal-2)"/>
+            <circle cx="450" cy="100" r="15" fill="none" stroke="var(--signal-2)" stroke-width="1.4" opacity="0.35"/>
+            <text x="450" y="76" text-anchor="middle">Cloud</text>
+
+            <circle class="pulse" cx="95" cy="385" r="7" fill="var(--signal-2)"/>
+            <circle cx="95" cy="385" r="15" fill="none" stroke="var(--signal-2)" stroke-width="1.4" opacity="0.35"/>
+            <text x="95" y="412" text-anchor="middle">VPN</text>
+
+            <circle class="pulse" cx="465" cy="385" r="7" fill="var(--signal-2)"/>
+            <circle cx="465" cy="385" r="15" fill="none" stroke="var(--signal-2)" stroke-width="1.4" opacity="0.35"/>
+            <text x="465" y="412" text-anchor="middle">NOC/SOC</text>
+
+            <circle cx="50" cy="240" r="6" fill="var(--line-bright)"/>
+            <text x="50" y="220" text-anchor="middle">Routing</text>
+          </g>
+
+          <!-- center shield node -->
+          <circle cx="280" cy="240" r="58" fill="url(#heroCenterGrad)"/>
+          <circle cx="280" cy="240" r="58" fill="none" stroke="var(--signal-2)" stroke-width="1.5" opacity="0.4">
+            <animate attributeName="r" values="58;74;58" dur="3s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.4;0;0.4" dur="3s" repeatCount="indefinite"/>
+          </circle>
+          <g transform="translate(258,218)" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 2l18 6.5v13c0 12-8 19.5-18 22.5-10-3-18-10.5-18-22.5v-13z"/>
+            <path d="M14.5 22.5l5.5 5.5 10.5-10.5"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <div class="badge-strip-wrap">
+    <div class="wrap">
+      <div class="badge-strip-label">Technologies I work with</div>
+      <div class="badge-strip">
+        <span class="badge-strip__item"><svg class="badge-strip__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.331 18.171V17.06l-.022.01c-.25.121-.522.19-.801.203a1.186 1.186 0 01-.806-.237 1.038 1.038 0 01-.352-.498 1.21 1.21 0 01-.023-.667c.052-.225.178-.426.357-.569.16-.134.355-.218.562-.242a1.85 1.85 0 011.061.198l.024.013v-1.117l-.051-.014a2.862 2.862 0 00-1.011-.132 2.34 2.34 0 00-.903.206c-.287.132-.54.327-.739.571a2.221 2.221 0 00-.04 2.705c.295.378.709.645 1.175.756.491.12 1.006.102 1.487-.052l.082-.023M5.336 18.171V17.06l-.022.01c-.25.121-.522.19-.801.203a1.183 1.183 0 01-.806-.237 1.03 1.03 0 01-.351-.498 1.202 1.202 0 01-.024-.667c.052-.225.177-.426.357-.569.16-.134.355-.218.562-.242a1.85 1.85 0 011.061.198l.024.013v-1.117l-.051-.014a2.862 2.862 0 00-1.011-.132 2.344 2.344 0 00-.903.206 2.08 2.08 0 00-.74.571 2.224 2.224 0 00-.041 2.705 2.11 2.11 0 001.176.756c.491.12 1.005.102 1.487-.052l.083-.023M9.26 17.249l-.004.957.07.012c.22.041.441.069.664.085.195.019.391.022.587.012.187-.014.372-.049.551-.104.21-.06.405-.163.571-.305a1.16 1.16 0 00.333-.478 1.31 1.31 0 00-.007-.96 1.068 1.068 0 00-.298-.414 1.261 1.261 0 00-.438-.255l-.722-.268a.388.388 0 01-.197-.188.245.245 0 01.008-.219.382.382 0 01.154-.142.798.798 0 01.257-.074c.153-.022.308-.021.46.005.18.02.358.051.533.096l.038.008v-.883l-.069-.015a4.749 4.749 0 00-.543-.097 2.844 2.844 0 00-.714-.003c-.3.027-.585.143-.821.33-.16.126-.281.293-.351.484-.104.29-.105.608 0 .899.054.145.14.274.252.381.097.093.207.173.327.236.157.084.324.149.497.195.057.017.114.035.17.054l.085.031.024.01c.084.03.162.078.226.14.045.042.08.094.101.151a.325.325 0 01.001.161.339.339 0 01-.166.198.856.856 0 01-.275.086 2.032 2.032 0 01-.427.021 5.208 5.208 0 01-.557-.074 9.195 9.195 0 01-.287-.067l-.033-.006zm-2.475.995h1.05v-4.167h-1.05v4.167zm12.162-2.936a1.095 1.095 0 011.541.158 1.094 1.094 0 01-.157 1.541l-.017.014a1.096 1.096 0 01-1.367-1.713m-1.525.854a2.193 2.193 0 002.666 2.107 2.139 2.139 0 00.701-3.937 2.207 2.207 0 00-3.367 1.83M22.961 10.728a.52.52 0 001.039 0V9.573a.52.52 0 00-1.039 0v1.155M20.117 10.728a.522.522 0 001.041 0V8.139a.521.521 0 00-1.04 0v2.589M17.231 11.771a.521.521 0 001.039 0V6.17a.52.52 0 00-1.039 0v5.601M14.393 10.728a.521.521 0 001.04 0V8.139a.52.52 0 00-1.039 0v2.589M11.494 10.728a.522.522 0 001.039 0V9.573a.52.52 0 00-1.039 0v1.155M8.624 10.728a.52.52 0 001.039 0V8.139a.52.52 0 00-1.039 0v2.589M5.737 11.771a.52.52 0 001.039 0V6.17a.52.52 0 00-1.039 0v5.601M2.876 10.728a.522.522 0 001.04 0V8.139a.52.52 0 00-1.039 0v2.589M0 10.728a.521.521 0 001.039 0V9.573a.52.52 0 00-1.039 0v1.155"/></svg>Cisco</span>
+        <span class="badge-strip__item"><svg class="badge-strip__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m10.278 15.443 1.705 1.705-3.426 3.426-3.427-3.426 8.592-8.591-1.705-1.705 3.426-3.426 3.427 3.426-8.592 8.591zM0 12.017l3.426 3.426 8.591-8.59-3.426-3.427L0 12.017zm11.983 5.13 3.426 3.427L24 11.983l-3.426-3.426-8.591 8.59z"/></svg>Palo Alto Networks</span>
+        <span class="badge-strip__item"><svg class="badge-strip__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M0 9.785h6.788v4.454H0zm8.666-6.33h6.668v4.453H8.666zm0 12.637h6.668v4.454H8.666zm8.522-6.307H24v4.454h-6.812zM2.792 3.455C1.372 3.814.265 5.404 0 7.425v.506h6.788V3.454zM0 16.091v.554c.24 1.926 1.276 3.466 2.624 3.9h4.188v-4.454zm24-8.184v-.506c-.265-1.998-1.372-3.587-2.792-3.972h-4.02v4.454H24zM21.376 20.57c1.324-.458 2.36-1.974 2.624-3.9v-.554h-6.812v4.454Z"/></svg>Fortinet</span>
+        <span class="badge-strip__item"><svg class="badge-strip__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M.5 10.1a.505.505 0 00-.197.048.497.497 0 00-.25.68l1.138 2.475c.179.38.38.592.721.592.342 0 .542-.22.72-.592l1.003-2.186a.144.144 0 01.144-.092.16.16 0 01.157.16v2.118a.535.535 0 101.066 0v-1.73a.531.531 0 01.566-.552.52.52 0 01.541.551v1.73a.531.531 0 00.53.593.539.539 0 00.535-.592v-1.73a.531.531 0 01.564-.552.52.52 0 01.543.551v1.73a.531.531 0 00.528.593.535.535 0 00.535-.592v-1.969a1.234 1.234 0 00-1.283-1.23 1.647 1.647 0 00-1.14.486 1.26 1.26 0 00-1.095-.483 1.807 1.807 0 00-1.074.483 1.287 1.287 0 00-.961-.483 1.177 1.177 0 00-1.158.786l-.729 1.716-.933-2.203.011-.004A.505.505 0 00.5 10.1zm18.43.06a.27.27 0 00-.266.274h.002v3.142a.27.27 0 10.535 0v-1.222c0-1.037.571-1.56 1.27-1.643a.266.266 0 00.238-.274.258.258 0 00-.266-.269 1.465 1.465 0 00-1.242.88v-.614a.266.266 0 00-.271-.274zm-6.735.008a.273.273 0 00-.25.217l-.912 2.627-.902-2.62a.28.28 0 00-.274-.22.266.266 0 00-.27.258.493.493 0 00.034.144l1.09 3.037.02-.007a.319.319 0 00.298.242.3.3 0 00.293-.242l.903-2.583.896 2.583a.3.3 0 00.293.242h.018a.319.319 0 00.293-.242l1.097-3.038a.512.512 0 00.033-.144.258.258 0 00-.265-.25.262.262 0 00-.258.209l-.918 2.63-.904-2.626a.285.285 0 00-.278-.217h-.025a.273.273 0 00-.012 0zm10.168.008a1.75 1.75 0 00-1.691 1.851 1.765 1.765 0 001.76 1.858l-.008.013a1.784 1.784 0 001.33-.539.228.228 0 00.082-.17.228.228 0 00-.379-.168 1.435 1.435 0 01-1.018.415 1.237 1.237 0 01-1.24-1.207h2.555a.247.247 0 00.246-.247c0-.945-.593-1.806-1.637-1.806zm-5.744.002a1.571 1.571 0 00-.158.006 2.384 2.384 0 00-1.078.205.22.22 0 00-.143.222.24.24 0 00.235.229.266.266 0 00.095-.024 1.822 1.822 0 01.834-.162c.691 0 1.07.334 1.07.979v.125a3.796 3.796 0 00-1.103-.15c-.892 0-1.52.4-1.52 1.16l-.003-.004c0 .736.671 1.117 1.34 1.117a1.575 1.575 0 001.298-.62v.343a.247.247 0 00.254.25.254.254 0 00.258-.262v-1.983a1.416 1.416 0 00-.379-1.046 1.571 1.571 0 00-1-.385zm5.719.43c.714 0 1.085.565 1.139 1.214h-2.278a1.222 1.222 0 011.139-1.215zm-5.885 1.382a3.75 3.75 0 011.057.153V12.49c0 .57-.539.973-1.2.973-.485 0-.904-.261-.904-.713 0-.467.375-.76 1.047-.76Z"/></svg>VMware</span>
+        <span class="badge-strip__item badge-strip__item--text-only">AWS</span>
+        <span class="badge-strip__item badge-strip__item--text-only">Microsoft Azure</span>
+        <span class="badge-strip__item badge-strip__item--text-only">Arista</span>
+        <span class="badge-strip__item"><svg class="badge-strip__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12a11.943 11.943 0 002.336 7.1113c.509.004.8594-.111.8984-.33.046-.229.0068-.5825-.0332-.9395a55.067 55.067 0 01-.2344-7.4473c-.609.027-1.1547.055-1.6777.086.02-.471.046-.9188.084-1.3828.517-.05 1.064-.0936 1.666-.1446.026-.406.0568-.7983.0918-1.1953.27-2.43 2.828-3.9162 4.959-4.4902.946-.23 1.5245-.3022 1.9785-.3262.164-.005.3405-.0117.5175-.0117.442 0 .8899.0414 1.1739.2344.46.345.9135.6873 1.3965 1.0683.048.065.1024.1678-.0176.3438-.222.26-.4371.5084-.6621.7754-.13.157-.3454.1164-.5274.0664-.38-.194-.7462-.3728-1.1172-.5528-.672-.299-1.3666-.6061-2.1406-.5761-.483.039-.951.532-1 1.209a101.41 101.41 0 00-.1504 3.2285c1.343-.038 2.6837-.0624 4.0957-.0684l-.002.9453c-.46.206-.8954.413-1.3574.623-.953.011-1.8595.0202-2.7715.0352a125.13 125.13 0 00.1192 7.9317c.024.378.0424.7605.1504 1.0175.13.322.8798.5701 2.5098.6621.007.284.0153.5532.0253.8282-2.655-.077-5.205-.3302-7.248-.6992A11.962 11.962 0 0012 24c6.628 0 12-5.373 12-12a11.942 11.942 0 00-2.0957-6.7754c-.147.607-.2252 1.2378-.3672 1.8828-1.8-.234-3.9131-.4053-6.2871-.4883-.191.602-.3711 1.192-.5781 1.836 3.973.245 5.9048 1.2924 7.0508 2.5254 1.113 1.248 1.3501 2.6262 1.2851 3.9062-.143 2.081-1.0613 3.3971-2.3203 4.3711-1.274.96-2.8139 1.436-4.0469 1.539-1.819.137-4.2515-.2962-4.7695-.6132a178.03 178.03 0 01-.9492-2.2012c-.08-.166-.1294-.3371.0976-.5351.354-.339.6928-.6667 1.0508-1.0137.158-.155.3338-.2991.4668-.0781.489.755.9473 1.4477 1.4063 2.1367.522.77 1.3167 1.4695 3.0527 1.3535 1.459-.13 2.5675-1.2333 2.6855-2.4473.128-2.246-2.1446-3.8396-8.0546-4.3496a2571.27 2571.27 0 013.123-9.371c1.404.065 2.7043.1798 3.9453.3398.919.116 1.772.3287 2.627.4277A11.973 11.973 0 0012 0zm10.0195 21.1113c-.5006 0-.9082.4076-.9082.9082 0 .5007.4076.9082.9082.9082.5007 0 .9082-.4075.9082-.9082 0-.5006-.4075-.9082-.9082-.9082zm0 .127c.4318 0 .7793.3495.7793.7812a.7776.7776 0 01-.7793.7793c-.4317 0-.7812-.3475-.7812-.7793a.7809.7809 0 01.7812-.7812zm-.3652.2773v.9961h.1738v-.3926h.1387c.092 0 .1583.0112.1953.0332.062.037.0938.1146.0938.2286v.08l.002.0293a.07.07 0 01.0039.0118c0 .005-.0001.0068.0039.0098h.162l-.0058-.0137a.106.106 0 01-.0078-.0488.6846.6846 0 01-.004-.0743v-.0742a.276.276 0 00-.0527-.1543c-.037-.053-.0948-.0846-.1718-.0976A.408.408 0 0022.328 22c.066-.042.0977-.1103.0977-.1973 0-.124-.0503-.21-.1543-.252a.752.752 0 00-.2695-.035zm.1738.123h.1504a.45.45 0 01.211.0372c.042.024.0664.0735.0664.1445a.153.153 0 01-.1036.1563.451.451 0 01-.166.0214h-.1582z"/></svg>F5</span>
+        <span class="badge-strip__item"><svg class="badge-strip__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.134.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .396.062.584.198.19.135.33.332.438.533.105.259.158.459.166.724 0-.02.006-.04.006-.06v.105a.086.086 0 01-.004-.021l-.004-.024a1.807 1.807 0 01-.15.706.953.953 0 01-.213.335.71.71 0 00-.088-.042c-.104-.045-.198-.064-.284-.133a1.312 1.312 0 00-.22-.066c.05-.06.146-.133.183-.198.053-.128.082-.264.088-.402v-.02a1.21 1.21 0 00-.061-.4c-.045-.134-.101-.2-.183-.333-.084-.066-.167-.132-.267-.132h-.016c-.093 0-.176.03-.262.132a.8.8 0 00-.205.334 1.18 1.18 0 00-.09.4v.019c.002.089.008.179.02.267-.193-.067-.438-.135-.607-.202a1.635 1.635 0 01-.018-.2v-.02a1.772 1.772 0 01.15-.768c.082-.22.232-.406.43-.533a.985.985 0 01.594-.2zm-2.962.059h.036c.142 0 .27.048.399.135.146.129.264.288.344.465.09.199.14.4.153.667v.004c.007.134.006.2-.002.266v.08c-.03.007-.056.018-.083.024-.152.055-.274.135-.393.2.012-.09.013-.18.003-.267v-.015c-.012-.133-.04-.2-.082-.333a.613.613 0 00-.166-.267.248.248 0 00-.183-.064h-.021c-.071.006-.13.04-.186.132a.552.552 0 00-.12.27.944.944 0 00-.023.33v.015c.012.135.037.2.08.334.046.134.098.2.166.268.01.009.02.018.034.024-.07.057-.117.07-.176.136a.304.304 0 01-.131.068 2.62 2.62 0 01-.275-.402 1.772 1.772 0 01-.155-.667 1.759 1.759 0 01.08-.668 1.43 1.43 0 01.283-.535c.128-.133.26-.2.418-.2zm1.37 1.706c.332 0 .733.065 1.216.399.293.2.523.269 1.052.468h.003c.255.136.405.266.478.399v-.131a.571.571 0 01.016.47c-.123.31-.516.643-1.063.842v.002c-.268.135-.501.333-.775.465-.276.135-.588.292-1.012.267a1.139 1.139 0 01-.448-.067 3.566 3.566 0 01-.322-.198c-.195-.135-.363-.332-.612-.465v-.005h-.005c-.4-.246-.616-.512-.686-.71-.07-.268-.005-.47.193-.6.224-.135.38-.271.483-.336.104-.074.143-.102.176-.131h.002v-.003c.169-.202.436-.47.839-.601.139-.036.294-.065.466-.065zm2.8 2.142c.358 1.417 1.196 3.475 1.735 4.473.286.534.855 1.659 1.102 3.024.156-.005.33.018.513.064.646-1.671-.546-3.467-1.089-3.966-.22-.2-.232-.335-.123-.335.59.534 1.365 1.572 1.646 2.757.13.535.16 1.104.021 1.67.067.028.135.06.205.067 1.032.534 1.413.938 1.23 1.537v-.043c-.06-.003-.12 0-.18 0h-.016c.151-.467-.182-.825-1.065-1.224-.915-.4-1.646-.336-1.77.465-.008.043-.013.066-.018.135-.068.023-.139.053-.209.064-.43.268-.662.669-.793 1.187-.13.533-.17 1.156-.205 1.869v.003c-.02.334-.17.838-.319 1.35-1.5 1.072-3.58 1.538-5.348.334a2.645 2.645 0 00-.402-.533 1.45 1.45 0 00-.275-.333c.182 0 .338-.03.465-.067a.615.615 0 00.314-.334c.108-.267 0-.697-.345-1.163-.345-.467-.931-.995-1.788-1.521-.63-.4-.986-.87-1.15-1.396-.165-.534-.143-1.085-.015-1.645.245-1.07.873-2.11 1.274-2.763.107-.065.037.135-.408.974-.396.751-1.14 2.497-.122 3.854a8.123 8.123 0 01.647-2.876c.564-1.278 1.743-3.504 1.836-5.268.048.036.217.135.289.202.218.133.38.333.59.465.21.201.477.335.876.335.039.003.075.006.11.006.412 0 .73-.134.997-.268.29-.134.52-.334.74-.4h.005c.467-.135.835-.402 1.044-.7zm2.185 8.958c.037.6.343 1.245.882 1.377.588.134 1.434-.333 1.791-.765l.211-.01c.315-.007.577.01.847.268l.003.003c.208.199.305.53.391.876.085.4.154.78.409 1.066.486.527.645.906.636 1.14l.003-.007v.018l-.003-.012c-.015.262-.185.396-.498.595-.63.401-1.746.712-2.457 1.57-.618.737-1.37 1.14-2.036 1.191-.664.053-1.237-.2-1.574-.898l-.005-.003c-.21-.4-.12-1.025.056-1.69.176-.668.428-1.344.463-1.897.037-.714.076-1.335.195-1.814.12-.465.308-.797.641-.984l.045-.022zm-10.814.049h.01c.053 0 .105.005.157.014.376.055.706.333 1.023.752l.91 1.664.003.003c.243.533.754 1.064 1.189 1.637.434.598.77 1.131.729 1.57v.006c-.057.744-.48 1.148-1.125 1.294-.645.135-1.52.002-2.395-.464-.968-.536-2.118-.469-2.857-.602-.369-.066-.61-.2-.723-.4-.11-.2-.113-.602.123-1.23v-.004l.002-.003c.117-.334.03-.752-.027-1.118-.055-.401-.083-.71.043-.94.16-.334.396-.4.69-.533.294-.135.64-.202.915-.47h.002v-.002c.256-.268.445-.601.668-.838.19-.201.38-.336.663-.336zm7.159-9.074c-.435.201-.945.535-1.488.535-.542 0-.97-.267-1.28-.466-.154-.134-.28-.268-.373-.335-.164-.134-.144-.333-.074-.333.109.016.129.134.199.2.096.066.215.2.36.333.292.2.68.467 1.167.467.485 0 1.053-.267 1.398-.466.195-.135.445-.334.648-.467.156-.136.149-.267.279-.267.128.016.034.134-.147.332a8.097 8.097 0 01-.69.468zm-1.082-1.583V5.64c-.006-.02.013-.042.029-.05.074-.043.18-.027.26.004.063 0 .16.067.15.135-.006.049-.085.066-.135.066-.055 0-.092-.043-.141-.068-.052-.018-.146-.008-.163-.065zm-.551 0c-.02.058-.113.049-.166.066-.047.025-.086.068-.14.068-.05 0-.13-.02-.136-.068-.01-.066.088-.133.15-.133.08-.031.184-.047.259-.005.019.009.036.03.03.05v.02h.003z"/></svg>Linux</span>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Core Capabilities</div>
+        <h2>What I handle end to end</h2>
+        <p>From perimeter policy to cloud-connected branch offices — scoped, documented, and handed off cleanly.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card reveal">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V5l8-3z"/><path d="M8.5 12l2.5 2.5 5-5"/></svg>
+          </div>
+          <h3>Firewall Management</h3>
+          <p>Palo Alto &amp; PAN-OS policy design, hardening, and ongoing rule-base cleanup — built to reduce attack surface without breaking business workflows.</p>
+          <a href="/services#firewall" class="more">View details →</a>
+        </div>
+        <div class="card reveal">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a5 5 0 007 0l3-3a5 5 0 00-7-7l-1 1"/><path d="M14 10a5 5 0 00-7 0l-3 3a5 5 0 007 7l1-1"/></svg>
+          </div>
+          <h3>VPN Architecture</h3>
+          <p>Site-to-site IPsec and remote-access SSL VPN, built for reliable uptime and least-privilege access across distributed teams.</p>
+          <a href="/services#vpn" class="more">View details →</a>
+        </div>
+        <div class="card reveal">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2.2"/><circle cx="5" cy="19" r="2.2"/><circle cx="19" cy="19" r="2.2"/><path d="M12 7.2L6.6 16.8M12 7.2l5.4 9.6M7.4 19h9.2"/></svg>
+          </div>
+          <h3>Routing &amp; Switching</h3>
+          <p>BGP and OSPF design, VLAN segmentation, and multi-site network builds engineered to scale as the business grows.</p>
+          <a href="/services#routing" class="more">View details →</a>
+        </div>
+        <div class="card reveal">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a5 5 0 00-5 5v3.5L5 15h14l-2-3.5V8a5 5 0 00-5-5z"/><path d="M9.5 18a2.5 2.5 0 005 0"/></svg>
+          </div>
+          <h3>NOC / SOC Support</h3>
+          <p>Monitoring, alert triage, and incident response coverage for teams that need extra eyes without a full in-house shift.</p>
+          <a href="/services#noc-soc" class="more">View details →</a>
+        </div>
+        <div class="card reveal">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18a4 4 0 01-.6-7.96A5.5 5.5 0 0117 9a4.5 4.5 0 01-.5 8.98H7z"/></svg>
+          </div>
+          <h3>Cloud Infrastructure</h3>
+          <p>Secure connectivity and network design across AWS and Azure — bridging on-prem and cloud environments cleanly.</p>
+          <a href="/services#cloud" class="more">View details →</a>
+        </div>
+        <div class="card reveal">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="1.3" fill="#fff" stroke="none"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg>
+          </div>
+          <h3>Ongoing Consulting</h3>
+          <p>Retainer-based advisory for organizations that need senior-level network input without a full-time hire.</p>
+          <a href="/services#consulting" class="more">View details →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Why Choose Xorynex</div>
+        <h2>Enterprise expertise, independent delivery</h2>
+        <p>The senior-level judgment of a data center engineer, without the overhead of a large consultancy.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <div class="why-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 6 6.5 1-4.7 4.6 1.1 6.4L12 17l-5.9 3 1.1-6.4L2.5 9l6.5-1z"/></svg>
+          </div>
+          <h3>Certified &amp; Production-Tested</h3>
+          <p>CCNA, Security+, and Network+ certified, with hands-on experience running production data center infrastructure — not just lab environments.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 8l-3 6a3.5 3.5 0 007 0l-3-6zM19 8l-3 6a3.5 3.5 0 007 0l-3-6zM5 8h14M3 21h18"/></svg>
+          </div>
+          <h3>Vendor-Neutral Advice</h3>
+          <p>Recommendations based on what your environment actually needs — not what earns the biggest reseller commission.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v12H8l-4 4z"/></svg>
+          </div>
+          <h3>Direct Engineer Access</h3>
+          <p>You work directly with the engineer doing the work — no account managers, no ticket queues, no hand-offs between departments.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M9 15l2 2 4-4"/></svg>
+          </div>
+          <h3>Documented Handoff</h3>
+          <p>Every engagement ends with documentation your own team can read, maintain, and build on — not a black box only I understand.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+          </div>
+          <h3>Responsive by Design</h3>
+          <p>One business day response time, standard. Critical issues get faster turnaround — you'll know what to expect upfront.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a13 13 0 010 18 13 13 0 010-18z"/></svg>
+          </div>
+          <h3>Global Coverage</h3>
+          <p>Remote-friendly delivery across the United States, Europe, and the Middle East, with regional compliance context (GDPR, NIS2).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">How Engagements Work</div>
+        <h2>A clear five-stage process</h2>
+        <p>Every engagement — one-off project or ongoing retainer — moves through the same disciplined sequence.</p>
+      </div>
+      <div class="process-strip">
+        <div class="process-step reveal">
+          <div class="process-step__num">01</div>
+          <h3>Discovery</h3>
+          <p>A short call or written brief to understand current infrastructure, constraints, and goals.</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="process-step__num">02</div>
+          <h3>Assessment</h3>
+          <p>Audit of existing configuration, policies, and risk areas — findings documented clearly.</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="process-step__num">03</div>
+          <h3>Design</h3>
+          <p>A scoped architecture and timeline proposed for review before any change is made.</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="process-step__num">04</div>
+          <h3>Implementation</h3>
+          <p>Changes deployed with rollback plans and change windows — tested before handoff.</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="process-step__num">05</div>
+          <h3>Support</h3>
+          <p>Documentation delivered, questions answered, and ongoing retainer support available.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Industries Served</div>
+        <h2>Solutions shaped by sector</h2>
+        <p>Compliance context and operational priorities shift by industry — the engineering approach adapts accordingly.</p>
+      </div>
+      <div class="industry-grid">
+        <div class="industry-item reveal">
+          <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0112 5.5 5.5 5.5 0 0121.5 12c-2.5 4.5-9.5 9-9.5 9z"/><path d="M9 12h2v-2h2v2h2v2h-2v2h-2v-2H9z"/></svg>
+          <span>Healthcare</span>
+        </div>
+        <div class="industry-item reveal">
+          <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+          <span>Financial Services</span>
+        </div>
+        <div class="industry-item reveal">
+          <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 8l-3 6a3.5 3.5 0 007 0l-3-6zM19 8l-3 6a3.5 3.5 0 007 0l-3-6zM5 8h14M3 21h18"/></svg>
+          <span>Legal</span>
+        </div>
+        <div class="industry-item reveal">
+          <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V10l6 4v-4l6 4V7l6 4v10H3z"/></svg>
+          <span>Manufacturing</span>
+        </div>
+        <div class="industry-item reveal">
+          <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12l-1 12H7z"/><path d="M9 8a3 3 0 016 0"/></svg>
+          <span>Retail &amp; Ecommerce</span>
+        </div>
+        <div class="industry-item reveal">
+          <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16v12H4z"/><path d="M9 7V5a1 1 0 011-1h4a1 1 0 011 1v2"/></svg>
+          <span>Professional Services</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Client Feedback</div>
+        <h2>What clients say</h2>
+        <p>Real feedback from completed engagements.</p>
+      </div>
+
+      <div class="review-grid">
+
+        <div class="log-entry review-card reveal">
+          <div class="review-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="quote">"Xorynex helped us redesign our firewall policies and clean up years of unnecessary rules. The implementation was well documented, and there was no disruption to our business operations. Communication throughout the project was excellent."</p>
+          <div class="log-entry__author">— <strong>Anthony</strong>, IT Manager</div>
+        </div>
+
+        <div class="log-entry review-card reveal">
+          <div class="review-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="quote">"We needed a secure site-to-site VPN between two offices. The setup was completed quickly, tested thoroughly, and everything was explained in a way our internal team could understand."</p>
+          <div class="log-entry__author">— <strong>Abby</strong>, Operations Director</div>
+        </div>
+
+        <div class="log-entry review-card reveal">
+          <div class="review-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="quote">"Professional, responsive, and technically very strong. We received clear recommendations instead of unnecessary upselling. The network documentation provided at the end of the project was especially valuable."</p>
+          <div class="log-entry__author">— <strong>Eknam</strong>, Infrastructure Lead</div>
+        </div>
+
+        <div class="log-entry review-card reveal">
+          <div class="review-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="quote">"Our firewall migration was completed with minimal downtime. Every step was planned in advance, and rollback procedures were documented. It was a smooth experience from start to finish."</p>
+          <div class="log-entry__author">— <strong>Joseph</strong>, Systems Administrator</div>
+        </div>
+
+        <div class="log-entry review-card reveal">
+          <div class="review-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="quote">"We engaged Xorynex for network troubleshooting after recurring VPN connectivity issues. The root cause was identified quickly, and the permanent solution has been running reliably ever since."</p>
+          <div class="log-entry__author">— <strong>Omisore</strong>, Technology Consultant</div>
+        </div>
+
+        <div class="log-entry review-card reveal">
+          <div class="review-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="quote">"The consultation helped us improve our network security posture without increasing unnecessary costs. The recommendations were practical, well explained, and tailored to our environment."</p>
+          <div class="log-entry__author">— <strong>Shelly</strong>, Business Owner</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="plain-panel reveal">
+        <h2>Don't have a dedicated network team?</h2>
+        <p class="intro">You don't need to know what BGP or IPsec means. You just need to know your infrastructure is protected, your team can work without interruptions, and someone answers when something breaks.</p>
+        <div class="plain-grid">
+          <div class="plain-item">
+            <p class="q">"What if an employee clicks a phishing email?"</p>
+            <p>Firewall and monitoring setup that catches threats before they become a problem — and a clear response plan if something does get through.</p>
+          </div>
+          <div class="plain-item">
+            <p class="q">"We have two locations that need to talk to each other securely."</p>
+            <p>Secure, reliable connections between offices — set up once, documented clearly, and built to keep working without you thinking about it.</p>
+          </div>
+          <div class="plain-item">
+            <p class="q">"We can't afford a full-time network engineer."</p>
+            <p>Project-based work or a light monthly retainer — senior-level infrastructure help only when you actually need it, not a full salary.</p>
+          </div>
+        </div>
+        <div class="btn-row" style="margin-top:28px;">
+          <a href="/contact" class="btn btn--primary">Book a Free Consultation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band" style="border-bottom:none;">
+    <div class="wrap">
+      <div class="eyebrow eyebrow--on-dark" style="justify-content:center;">Let's Talk</div>
+      <h2>Have a network or security problem to scope?</h2>
+      <p>Tell me what you're working with — I'll respond within one business day.</p>
+      <div class="btn-row"><a href="/contact" class="btn btn--primary">Get in Touch</a><a href="/services" class="btn btn--ghost" style="color:#fff; border-color:rgba(255,255,255,0.3);">Explore Services</a></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__col">
+        <div class="footer__brand">
+          <img src="/logo-icon.png" alt="Xorynex Technologies logo" width="28" height="21">
+          <span>Xorynex Technologies</span>
+        </div>
+        <p>Independent network and security engineering — firewalls, VPNs, routing, cloud, and NOC/SOC support for organizations worldwide.</p>
+        <div class="footer__meta-line" style="margin-top:14px;">Secure Networks. Smarter Infrastructure.</div>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="/services#firewall">Firewall Management</a></li>
+          <li><a href="/services#vpn">VPN Architecture</a></li>
+          <li><a href="/services#routing">Routing &amp; Switching</a></li>
+          <li><a href="/services#noc-soc">NOC / SOC Support</a></li>
+          <li><a href="/services#cloud">Cloud Infrastructure</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:support@xorynex.com">support@xorynex.com</a></li>
+          <li>Response within 1 business day</li>
+          <li>US &middot; Europe &middot; Middle East</li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/privacy">Privacy Policy</a></li>
+          <li><a href="/terms">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Xorynex Technologies. All rights reserved.</span>
+      <div class="footer__social">
+        <a href="https://www.linkedin.com/company/xorynex-technologies" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+        </a>
+      </div>
+      <span>support@xorynex.com</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
